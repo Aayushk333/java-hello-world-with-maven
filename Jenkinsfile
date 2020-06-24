@@ -3,6 +3,8 @@ node{
     git 'https://github.com/Aayushk333/java-hello-world-with-maven'
   }
   stage('Compile-Package'){
-    sh 'mvn package'
+    // Get Maven Home Path
+    def mvnHome = tool name: 'apache-maven-3.6.3', type: 'maven'
+    sh "${mvnHome}/bin/mvn package"
   }
 }
