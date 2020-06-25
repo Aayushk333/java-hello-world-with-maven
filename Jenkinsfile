@@ -12,6 +12,7 @@ node{
     echo 'Build starting ! ...'
     sh "pwd"
     sh "cd src/main/java/hello"
+    sh "ls"
     sh "java HelloWorld.java"
     
     
