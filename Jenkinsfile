@@ -14,6 +14,6 @@ node{
   }
   
   stage('Deploy'){
-     sh "java -jar /Users/Shared/Jenkins/Home/workspace/jenkinsfile-git-and-maven/target/jb-hello-world-maven-0.1.0-shaded.jar"
+     sh "java -jar /Users/Shared/Jenkins/Home/workspace/jenkinsfile-git-and-maven/target/jb-hello-world-maven-0.1.0.jar"
   }
 }
