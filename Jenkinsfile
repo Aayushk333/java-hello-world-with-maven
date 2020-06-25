@@ -10,6 +10,7 @@ node{
   
   stage('Build'){
     echo 'Build starting ! ...'
+    sh "cd /src/main/java/hello/"
     sh "java HelloWorld.java"
     
     
