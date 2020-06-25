@@ -11,10 +11,8 @@ node{
   stage('Build'){
     echo 'Build starting ! ...'
     sh "pwd"
-    sh "cd src/main/java/hello"
-    sh "ls"
-    sh "java HelloWorld.java"
     
+    sh "java -jar /Users/Shared/Jenkins/Home/workspace/jenkinsfile-git-and-maven/target/jb-hello-world-maven-0.1.0-shaded.jar"
     
     
   }
