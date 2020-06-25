@@ -10,8 +10,8 @@ node{
   
   stage('Build'){
     echo 'Build starting ! ...'
-    sh "cd /src/main/java/hello/"
-    sh "java HelloWorld.java"
+    sh "pwd"
+    //sh "java HelloWorld.java"
     
     
     
